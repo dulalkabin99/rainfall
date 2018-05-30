@@ -1,0 +1,39 @@
+4. How much water runs off the roof
+How much water runs off a roof in a rain storm?
+
+To calculate the runoff from any given rainfall: 
+Take the dimensions of the footprint of the roof and convert them to inches. 
+(So, a 50' x 20' roof is 600" x 240"). Multiply the roof dimensions by the number of inches of rainfall. 
+In this example, 600" x 240" x 1" = 144,000 cubic inches of water.
+Divide that result by 231 to get the number of gallons (because 1 gallon = 231 cubic inches). (144,000/231 = 623.38).
+
+
+Algorihms
+---------------------------------------------------------------
+inputs
+	lenth of the roof footprint
+	width of the roof footprint
+	number of inches of rainfall
+	
+Processing
+	change the length of the roof to inches
+	change the width of the roof to inches
+	Multiply the length of roof by 12 to convert into inches
+	Multiply the width of roof by 12 to convert into inches
+	multiply length length and rainfall
+	divide it by 231
+Outputs
+	display result in inches
+
+-------------------------------------------------------
+Pseudocode
+	set length to getLenth from user
+	set width to getwidth from user
+	set inchRain to get InchRain from user
+
+	set length to length *12
+	set width to width * 12
+
+	set Rainfall to ((lenth * width) (inchRain))/231
+	print rainfall.
+	
